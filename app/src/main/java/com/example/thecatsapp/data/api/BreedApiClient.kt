@@ -9,7 +9,7 @@ import retrofit2.http.Path
 interface BreedApiClient {
 
     @GET("breeds")
-    suspend fun getAllBreeds(): Response<BreedsResponseJson>
+    suspend fun getAllBreeds(): Response<List<BreedsResponseJson>>
 
     @GET("breeds/{imageId}")
     suspend fun getImageUrl(@Path("imageId") imageId: String) : Response<ImageResponseJson>

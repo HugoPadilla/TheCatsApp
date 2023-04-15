@@ -1,8 +1,8 @@
 package com.example.thecatsapp.domain.repository
 
 import com.example.thecatsapp.domain.models.Cat
-import com.example.thecatsapp.utils.NetworkResult
+import com.example.thecatsapp.utils.Response
 
 interface CatRepository {
-    suspend fun getCats(): NetworkResult<List<Cat>>
+    suspend fun getCats(): Response<List<Cat>>
 }
