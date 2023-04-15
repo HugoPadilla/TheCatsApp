@@ -9,6 +9,6 @@ fun BreedsResponseJson.toDomain(): Cat {
         origin = origin ?: "N/N",
         affectionLevel = affectionLevel ?: 0,
         intelligence = intelligence ?: 0,
-        imageUri = "https://api.thecatapi.com/v1/images/${referenceImageId}.jpg"
+        imageUri = "https://cdn2.thecatapi.com/images/${referenceImageId}.jpg"
     )
 }
