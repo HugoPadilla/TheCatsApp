@@ -21,7 +21,7 @@ fun CatsScreen(uiState: CatUiState = CatUiState()) {
     Scaffold(topBar = {
         SmallTopAppBar(title = {
             Text(
-                text = "Catbeends",
+                text = "Cat breeds",
                 modifier = Modifier.fillMaxWidth(),
                 textAlign = TextAlign.Center
             )
